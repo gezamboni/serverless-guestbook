@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = 'https://us-south.functions.appdomain.cloud/api/v1/web/1077a715-cf2c-4c14-b70e-3d3620b59faa/guestbook';
+const apiUrl = 'https://us-south.functions.appdomain.cloud/api/v1/web/cd2d13ac-0ce2-4152-8106-94b865fd2788/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
@@ -11,7 +11,7 @@ const guestbook = {
       dataType: 'json'
     });
   },
-  // add a single guestbood entry
+  // add a single guestbook entry
   add(name, email, comment) {
     console.log('Sending', name, email, comment)
     return $.ajax({
